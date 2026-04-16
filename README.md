@@ -14,17 +14,32 @@ A premium UI/UX generation skill for Claude. Produces interfaces that feel handc
 
 ### npm / npx
 
-**Install for specific editor:**
+**Install for your AI assistant:**
 ```bash
-npx ui-craft-cli init --ai claude       # Claude Code
-npx ui-craft-cli init --ai cursor       # Cursor
-npx ui-craft-cli init --ai windsurf     # Windsurf
-npx ui-craft-cli init --ai copilot      # GitHub Copilot
-npx ui-craft-cli init --ai continue     # Continue
+ui-craft-cli init --ai claude       # Claude Code
+ui-craft-cli init --ai cursor       # Cursor
+ui-craft-cli init --ai windsurf     # Windsurf
+ui-craft-cli init --ai antigravity  # Antigravity
+ui-craft-cli init --ai copilot      # GitHub Copilot
+ui-craft-cli init --ai kiro         # Kiro
+ui-craft-cli init --ai codex        # Codex CLI
+ui-craft-cli init --ai qoder        # Qoder
+ui-craft-cli init --ai roocode      # Roo Code
+ui-craft-cli init --ai gemini       # Gemini CLI
+ui-craft-cli init --ai trae         # Trae
+ui-craft-cli init --ai opencode     # OpenCode
+ui-craft-cli init --ai continue     # Continue
+ui-craft-cli init --ai codebuddy    # CodeBuddy
+ui-craft-cli init --ai droid        # Droid (Factory)
+ui-craft-cli init --ai kilocode     # KiloCode
+ui-craft-cli init --ai warp         # Warp
+ui-craft-cli init --ai augment      # Augment
+ui-craft-cli init --ai all          # All assistants
 ```
 
-**Install for all editors:**
+**Or with npx (no install needed):**
 ```bash
+npx ui-craft-cli init --ai claude
 npx ui-craft-cli init --ai all
 ```
 
@@ -39,8 +54,6 @@ npm install -g ui-craft-cli
 ui-craft init --ai claude
 ui-craft init --ai all
 ```
-
-**Supported editors:** claude, cursor, windsurf, copilot, continue, antigravity, kiro, codex, qoder, roocode, gemini, trae, opencode, codebuddy, droid, kilocode, warp, augment, all
 
 ---
 
