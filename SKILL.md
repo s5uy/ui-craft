@@ -89,19 +89,30 @@ See `core/motion-standard.md` for full specifications.
 
 ## Library-First Integration Protocol
 
-Premium results come from using our best references first. You must prioritize the components in `components/library/` over generating from scratch.
+Premium results come from using our best references first. You must always check `components/library/scraped/` **before generating any component from scratch**. These are curated, high-fidelity Class A references — they take absolute priority.
+
+### Scraped Library — Quick Lookup
+
+| Need | File | Key Components |
+|---|---|---|
+| Buttons, CTAs, triggers | `components/library/scraped/buttons.md` | RainbowButton, LiquidMetal, IconButtons |
+| Badges, avatars, status indicators | `components/library/scraped/badges.md` | AvatarBadge, VariantBadge, DotIndicator |
+| AI chat, prompt inputs | `components/library/scraped/aichats.md` | ChatInput, V0-style Chat, PromptBox |
+| Accordions, banners, upgrade prompts | `components/library/scraped/accordions.md` | Accordion, Banner, UpgradeBanner |
+
+If none of the above match, check broader patterns in `components/library/` before generating.
 
 ### The Ask-and-Place Workflow
 
 When a user asks for a UI element (e.g., "a button" or "a hero section"), you must:
 
-1.  **Scan the Library**: Search `components/library/` for high-fidelity Class A components that match the request.
+1.  **Check Scraped First**: Open the relevant file from the Quick Lookup table above. If a scraped component matches, use it as the base — do not generate from scratch.
 2.  **Propose the "Premium Stack"**: Before writing any final code, suggest a specific set of components that work well together.
-    *   *Example:* "I've found a premium Avatar + Badge combination in my library that matches your theme. I recommend using the [AvatarBadge](file:///c:/Users/user/OneDrive/Desktop/ui-skill/components/library/scraped/badges.md) pattern with the [LiquidMetalButton](file:///c:/Users/user/OneDrive/Desktop/ui-skill/components/library/scraped/buttons.md) for a high-end feel."
+    *   *Example:* "I've found a premium Avatar + Badge combination in my scraped library. I recommend the [AvatarBadge](components/library/scraped/badges.md) pattern with [LiquidMetalButton](components/library/scraped/buttons.md) — both use matching motion physics and subtle border treatments."
 3.  **Justify the Harmony**: Briefly explain why they work together (e.g., "Both use subtle border-glows and matching motion physics").
 4.  **Request Choice**: Ask the user: "Would you like to proceed with this premium stack, or should I generate a more standard version?"
 
-**Never default to generic components if a premium version exists in the library.**
+**Never default to generic components if a scraped premium version exists.**
 
 ---
 
