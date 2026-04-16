@@ -9,7 +9,7 @@ A premium UI/UX generation skill for Claude. Produces interfaces that feel handc
 ### Claude Code (via GitHub)
 
 ```
-/install-github-skill s5uy/ui-skill
+/install-github-skill s5uy/ui-craft
 ```
 
 ### npm / npx
