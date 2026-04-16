@@ -1,4 +1,4 @@
-# Reference Prompts — Accordions & Badges
+# Reference Prompts — Accordions & Layouts
 
 You are given a task to integrate an existing React component in the codebase
 

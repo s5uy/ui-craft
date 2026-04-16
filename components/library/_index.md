@@ -11,7 +11,9 @@ This directory contains high-fidelity component integration prompts scraped from
 
 | Collection | Description | Primary Components |
 |---|---|---|
-| [Accordions & Badges](file:///c:/Users/user/OneDrive/Desktop/ui-skill/components/library/scraped/accordions.md) | High-end visual accents and interactive elements | AnimatedText, HeroBadge, UpgradeBanner |
+| [Accordions & Layouts](file:///c:/Users/user/OneDrive/Desktop/ui-skill/components/library/scraped/accordions.md) | High-end visual accents and interactive elements | Accordions, Banners, UpgradeBanners |
+| [Badges & Avatars](file:///c:/Users/user/OneDrive/Desktop/ui-skill/components/library/scraped/badges.md) | Premium status indicators and user profiles | Avatar-Badges, Variant-Badges, Dot-Indicators |
+| [Buttons & Actions](file:///c:/Users/user/OneDrive/Desktop/ui-skill/components/library/scraped/buttons.md) | Advanced interactive triggers and animations | RainbowButtons, LiquidMetal, IconButtons |
 | [AI Chats & Inputs](file:///c:/Users/user/OneDrive/Desktop/ui-skill/components/library/scraped/aichats.md) | Production-grade AI chat interfaces | ChatInputs, V0-style Chat, ChatGPT-style PromptBox |
 
 ---
