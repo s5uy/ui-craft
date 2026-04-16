@@ -10,7 +10,7 @@
   "repository": "https://github.com/s5uy/ui-craft",
   "platforms": ["claude-code"],
   "entry": "SKILL.md",
-  "cliPackage": "ui-craft",
+  "cliPackage": "@s5uy/ui-craft",
   "keywords": ["ui", "ux", "design", "frontend", "react", "tailwind", "nextjs", "components"],
   "capabilities": [
     "Landing pages and homepages",

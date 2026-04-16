@@ -1,6 +1,6 @@
 {
   "name": "@s5uy/ui-craft",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Premium UI/UX generation skill for Claude Code",
   "type": "module",
   "bin": {
@@ -26,10 +26,10 @@
   ],
   "author": "Vortex",
   "license": "MIT",
-  "homepage": "https://github.com/s5uy/ui-skill",
+  "homepage": "https://github.com/s5uy/ui-craft",
   "repository": {
     "type": "git",
-    "url": "https://github.com/s5uy/ui-skill.git"
+    "url": "https://github.com/s5uy/ui-craft.git"
   },
   "dependencies": {
     "chalk": "^5.3.0",

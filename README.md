@@ -6,60 +6,20 @@ A premium UI/UX generation skill for Claude. Produces interfaces that feel handc
 
 ## Installation
 
-### Claude Code (via GitHub)
+### Current Installation Method (npm)
 
-**Direct skill install:**
-```
-/install-github-skill s5uy/ui-craft
-```
-
-**Via marketplace:**
-```
-/plugin marketplace add s5uy/ui-craft
-```
-
-### npm / npx
-
-**Install for your AI assistant:**
+**Install globally:**
 ```bash
-ui-craft-cli init --ai claude       # Claude Code
-ui-craft-cli init --ai cursor       # Cursor
-ui-craft-cli init --ai windsurf     # Windsurf
-ui-craft-cli init --ai antigravity  # Antigravity
-ui-craft-cli init --ai copilot      # GitHub Copilot
-ui-craft-cli init --ai kiro         # Kiro
-ui-craft-cli init --ai codex        # Codex CLI
-ui-craft-cli init --ai qoder        # Qoder
-ui-craft-cli init --ai roocode      # Roo Code
-ui-craft-cli init --ai gemini       # Gemini CLI
-ui-craft-cli init --ai trae         # Trae
-ui-craft-cli init --ai opencode     # OpenCode
-ui-craft-cli init --ai continue     # Continue
-ui-craft-cli init --ai codebuddy    # CodeBuddy
-ui-craft-cli init --ai droid        # Droid (Factory)
-ui-craft-cli init --ai kilocode     # KiloCode
-ui-craft-cli init --ai warp         # Warp
-ui-craft-cli init --ai augment      # Augment
-ui-craft-cli init --ai all          # All assistants
-```
-
-**Or with npx (no install needed):**
-```bash
-npx ui-craft-cli init --ai claude
-npx ui-craft-cli init --ai all
-```
-
-**Install globally (active in all projects):**
-```bash
-npx ui-craft-cli init --ai claude --global
-```
-
-**Or install the CLI permanently:**
-```bash
-npm install -g ui-craft-cli
+npm install -g @s5uy/ui-craft
 ui-craft init --ai claude
-ui-craft init --ai all
 ```
+
+**Or use npx (no installation needed):**
+```bash
+npx @s5uy/ui-craft init --ai claude
+```
+
+After installation, restart Claude Code and the skill will be automatically available.
 
 ---
 
