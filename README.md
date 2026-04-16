@@ -8,8 +8,14 @@ A premium UI/UX generation skill for Claude. Produces interfaces that feel handc
 
 ### Claude Code (via GitHub)
 
+**Direct skill install:**
 ```
 /install-github-skill s5uy/ui-craft
+```
+
+**Via marketplace:**
+```
+/plugin marketplace add s5uy/ui-craft
 ```
 
 ### npm / npx
