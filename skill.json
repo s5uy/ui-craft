@@ -2,16 +2,27 @@
   "name": "s5uy/ui-craft",
   "id": "ui-craft",
   "displayName": "UI Craft",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Premium UI/UX generation skill for Claude. Produces interfaces that feel handcrafted, restrained, and production-ready.",
   "author": "Vortex",
   "license": "MIT",
   "homepage": "https://github.com/s5uy/ui-craft",
   "repository": "https://github.com/s5uy/ui-craft",
-  "platforms": ["claude-code"],
+  "platforms": [
+    "claude-code"
+  ],
   "entry": "SKILL.md",
   "cliPackage": "@s5uy/ui-craft",
-  "keywords": ["ui", "ux", "design", "frontend", "react", "tailwind", "nextjs", "components"],
+  "keywords": [
+    "ui",
+    "ux",
+    "design",
+    "frontend",
+    "react",
+    "tailwind",
+    "nextjs",
+    "components"
+  ],
   "capabilities": [
     "Landing pages and homepages",
     "SaaS dashboards",
@@ -23,5 +34,13 @@
     "Form systems",
     "Component adaptation"
   ],
-  "stack": ["React", "Next.js", "Tailwind CSS", "TypeScript", "shadcn", "Framer Motion", "Lucide React"]
+  "stack": [
+    "React",
+    "Next.js",
+    "Tailwind CSS",
+    "TypeScript",
+    "shadcn",
+    "Framer Motion",
+    "Lucide React"
+  ]
 }

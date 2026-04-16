@@ -87,6 +87,24 @@ See `core/motion-standard.md` for full specifications.
 
 ---
 
+## Library-First Integration Protocol
+
+Premium results come from using our best references first. You must prioritize the components in `components/library/` over generating from scratch.
+
+### The Ask-and-Place Workflow
+
+When a user asks for a UI element (e.g., "a button" or "a hero section"), you must:
+
+1.  **Scan the Library**: Search `components/library/` for high-fidelity Class A components that match the request.
+2.  **Propose the "Premium Stack"**: Before writing any final code, suggest a specific set of components that work well together.
+    *   *Example:* "I've found a premium Avatar + Badge combination in my library that matches your theme. I recommend using the [AvatarBadge](file:///c:/Users/user/OneDrive/Desktop/ui-skill/components/library/scraped/badges.md) pattern with the [LiquidMetalButton](file:///c:/Users/user/OneDrive/Desktop/ui-skill/components/library/scraped/buttons.md) for a high-end feel."
+3.  **Justify the Harmony**: Briefly explain why they work together (e.g., "Both use subtle border-glows and matching motion physics").
+4.  **Request Choice**: Ask the user: "Would you like to proceed with this premium stack, or should I generate a more standard version?"
+
+**Never default to generic components if a premium version exists in the library.**
+
+---
+
 ## Component Adaptation
 
 When given a reference component to adapt:
