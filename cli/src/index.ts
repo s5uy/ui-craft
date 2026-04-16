@@ -2,8 +2,8 @@
 import { program } from 'commander';
 import chalk from 'chalk';
 import ora from 'ora';
-import { readFileSync, writeFileSync, mkdirSync, existsSync, rmSync } from 'fs';
-import { join, resolve } from 'path';
+import { readFileSync, readdirSync, statSync, copyFileSync, mkdirSync, existsSync, rmSync } from 'fs';
+import { join } from 'path';
 import { fileURLToPath } from 'url';
 import { homedir } from 'os';
 
@@ -21,32 +21,17 @@ function getSkillDir(global: boolean): string {
   return join(process.cwd(), '.claude', 'skills', 'ui-craft');
 }
 
-function copyAssets(dest: string, force: boolean): void {
-  if (existsSync(dest)) {
-    if (!force) {
-      console.log(chalk.yellow(`Skill already installed at ${dest}`));
-      console.log(chalk.dim('Use --force to overwrite.'));
-      process.exit(1);
-    }
-    rmSync(dest, { recursive: true });
-  }
-  mkdirSync(dest, { recursive: true });
-
-  // Copy all files from assets
-  const { readdirSync, statSync, copyFileSync } = await import('fs').then(m => m);
-  function copyDir(src: string, dst: string) {
-    mkdirSync(dst, { recursive: true });
-    for (const entry of readdirSync(src)) {
-      const srcPath = join(src, entry);
-      const dstPath = join(dst, entry);
-      if (statSync(srcPath).isDirectory()) {
-        copyDir(srcPath, dstPath);
-      } else {
-        copyFileSync(srcPath, dstPath);
-      }
+function copyDir(src: string, dst: string) {
+  mkdirSync(dst, { recursive: true });
+  for (const entry of readdirSync(src)) {
+    const srcPath = join(src, entry);
+    const dstPath = join(dst, entry);
+    if (statSync(srcPath).isDirectory()) {
+      copyDir(srcPath, dstPath);
+    } else {
+      copyFileSync(srcPath, dstPath);
     }
   }
-  copyDir(ASSETS_DIR, dest);
 }
 
 program
@@ -64,21 +49,6 @@ program
     const spinner = ora('Installing UI Craft skill...').start();
 
     try {
-      const { readdirSync, statSync, copyFileSync } = await import('fs');
-
-      function copyDir(src: string, dst: string) {
-        mkdirSync(dst, { recursive: true });
-        for (const entry of readdirSync(src)) {
-          const srcPath = join(src, entry);
-          const dstPath = join(dst, entry);
-          if (statSync(srcPath).isDirectory()) {
-            copyDir(srcPath, dstPath);
-          } else {
-            copyFileSync(srcPath, dstPath);
-          }
-        }
-      }
-
       if (existsSync(dest)) {
         if (!options.force) {
           spinner.fail(chalk.yellow(`Already installed at ${dest}`));
