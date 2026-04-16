@@ -1,7 +1,7 @@
 {
-  "name": "ui-craft-cli",
+  "name": "@s5uy/ui-craft",
   "version": "1.0.0",
-  "description": "Install UI Craft skill for Claude Code",
+  "description": "Premium UI/UX generation skill for Claude Code",
   "type": "module",
   "bin": {
     "ui-craft": "dist/index.js"
@@ -24,7 +24,7 @@
     "skill",
     "ai"
   ],
-  "author": "s5uy",
+  "author": "Vortex",
   "license": "MIT",
   "homepage": "https://github.com/s5uy/ui-skill",
   "repository": {

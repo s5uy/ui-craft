@@ -1,0 +1,8 @@
+{
+  "name": "ui-craft",
+  "description": "Premium UI/UX generation skill for Claude",
+  "version": "1.0.0",
+  "author": {
+    "name": "Vortex"
+  }
+}
