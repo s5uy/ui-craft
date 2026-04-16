@@ -12,8 +12,9 @@
     {
       "name": "ui-craft",
       "source": {
-        "source": "npm",
-        "package": "@s5uy/ui-craft"
+        "source": "github",
+        "owner": "s5uy",
+        "repo": "ui-craft"
       },
       "description": "Premium UI/UX generation skill for Claude. Produces interfaces that feel handcrafted, restrained, and production-ready.",
       "version": "1.0.0",
@@ -21,8 +22,8 @@
         "name": "s5uy (Vortex)",
         "email": "thaaatym@gmail.com"
       },
-      "homepage": "https://github.com/s5uy/ui-skill",
-      "repository": "https://github.com/s5uy/ui-skill",
+      "homepage": "https://github.com/s5uy/ui-craft",
+      "repository": "https://github.com/s5uy/ui-craft",
       "license": "MIT",
       "keywords": ["ui", "ux", "design", "frontend", "react", "tailwind", "nextjs", "components"],
       "category": "design"
