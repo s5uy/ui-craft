@@ -1,0 +1,43 @@
+{
+  "name": "ui-craft-cli",
+  "version": "1.0.0",
+  "description": "Install UI Craft skill for Claude Code",
+  "type": "module",
+  "bin": {
+    "ui-craft": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "npx tsx src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist/",
+    "assets/"
+  ],
+  "keywords": [
+    "claude",
+    "claude-code",
+    "ui",
+    "ux",
+    "design",
+    "skill",
+    "ai"
+  ],
+  "author": "s5uy",
+  "license": "MIT",
+  "homepage": "https://github.com/s5uy/ui-skill",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/s5uy/ui-skill.git"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "ora": "^8.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0"
+  }
+}

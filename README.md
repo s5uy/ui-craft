@@ -4,6 +4,30 @@ A premium UI/UX generation skill for Claude. Produces interfaces that feel handc
 
 ---
 
+## Installation
+
+### Claude Code (via GitHub)
+
+```
+/install-github-skill s5uy/ui-skill
+```
+
+### npm / npx
+
+```bash
+# Install for current project
+npx ui-craft-cli init
+
+# Install globally (active in all projects)
+npx ui-craft-cli init --global
+
+# Or install the CLI permanently
+npm install -g ui-craft-cli
+ui-craft init
+```
+
+---
+
 ## What This Does
 
 When active, this skill reshapes how Claude approaches UI and frontend generation. It encodes a principal-level design philosophy, a palette selection framework, component adaptation judgment, and production-quality engineering standards.

@@ -1,0 +1,24 @@
+{
+  "name": "ui-craft",
+  "version": "1.0.0",
+  "description": "Premium UI/UX generation skill for Claude. Produces interfaces that feel handcrafted, restrained, and production-ready.",
+  "author": "s5uy",
+  "license": "MIT",
+  "homepage": "https://github.com/s5uy/ui-skill",
+  "repository": "https://github.com/s5uy/ui-skill",
+  "platforms": ["claude-code"],
+  "entry": "SKILL.md",
+  "keywords": ["ui", "ux", "design", "frontend", "react", "tailwind", "nextjs", "components"],
+  "capabilities": [
+    "Landing pages and homepages",
+    "SaaS dashboards",
+    "Auth pages",
+    "Pricing sections",
+    "Hero sections",
+    "Feature sections",
+    "Navigation",
+    "Form systems",
+    "Component adaptation"
+  ],
+  "stack": ["React", "Next.js", "Tailwind CSS", "TypeScript", "shadcn", "Framer Motion", "Lucide React"]
+}
