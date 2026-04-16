@@ -14,17 +14,33 @@ A premium UI/UX generation skill for Claude. Produces interfaces that feel handc
 
 ### npm / npx
 
+**Install for specific editor:**
 ```bash
-# Install for current project
-npx ui-craft-cli init
-
-# Install globally (active in all projects)
-npx ui-craft-cli init --global
-
-# Or install the CLI permanently
-npm install -g ui-craft-cli
-ui-craft init
+npx ui-craft-cli init --ai claude       # Claude Code
+npx ui-craft-cli init --ai cursor       # Cursor
+npx ui-craft-cli init --ai windsurf     # Windsurf
+npx ui-craft-cli init --ai copilot      # GitHub Copilot
+npx ui-craft-cli init --ai continue     # Continue
 ```
+
+**Install for all editors:**
+```bash
+npx ui-craft-cli init --ai all
+```
+
+**Install globally (active in all projects):**
+```bash
+npx ui-craft-cli init --ai claude --global
+```
+
+**Or install the CLI permanently:**
+```bash
+npm install -g ui-craft-cli
+ui-craft init --ai claude
+ui-craft init --ai all
+```
+
+**Supported editors:** claude, cursor, windsurf, copilot, continue, antigravity, kiro, codex, qoder, roocode, gemini, trae, opencode, codebuddy, droid, kilocode, warp, augment, all
 
 ---
 
