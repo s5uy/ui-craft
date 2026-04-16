@@ -189,6 +189,7 @@ See `core/quality-bar.md` for failure modes to check against.
 | Palette families | `palettes/families/` |
 | Industry palette guidance | `palettes/industry/` |
 | Component patterns | `components/` |
+| Premium library | `components/library/` |
 | Anti-patterns reference | `anti-patterns/` |
 | Generation prompts | `prompts/` |
 | Integration setup | `integration/` |

@@ -89,6 +89,12 @@ Component pattern files are not component libraries. They do not contain every p
 | `layout/spacing-systems.md` | Spacing and density | Scale, density levels, consistency |
 | `layout/responsive-patterns.md` | Responsive behavior | Breakpoints, mobile-first concerns |
 
+### Premium Reference Library
+
+| File | Component Type | Key Concerns |
+|---|---|---|
+| `library/_index.md` | Scraped component prompts | High-fidelity references, integration steps |
+
 ---
 
 ## How to Use These Files
