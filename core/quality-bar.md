@@ -49,9 +49,13 @@ Run this checklist before finalizing any UI output. If any answer is "no" or "un
 - [ ] Are Tailwind classes organized coherently?
 
 **Craft check**
-- [ ] Would this feel credible next to Vercel, Linear, or Stripe's design system?
+- [ ] Would this feel credible next to the Foundry reference site (`site-examples/foundry.md`), Vercel, Linear, or Stripe?
 - [ ] Does it feel handcrafted rather than assembled from blocks?
 - [ ] Did you preserve the good part of any referenced component without inheriting its generic styling?
+- [ ] Is every color a token — no hardcoded hex in component styles?
+- [ ] Does the text hierarchy have at least four levels (primary / dim / muted / faint)?
+- [ ] Is mono font used on all labels, metrics, eyebrows, and technical text?
+- [ ] Are box shadows diffuse (negative spread) rather than hard-edged?
 
 ---
 
