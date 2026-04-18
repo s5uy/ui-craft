@@ -133,7 +133,6 @@ ui-craft/
 ├── integration/              # shadcn / Tailwind / Next.js setup guidance
 ├── examples/                 # Working example implementations
 ├── site-examples/            # Deconstructions of production reference sites
-├── site1/                    # Raw source of the Foundry reference
 └── maintenance/              # Governance for extending the skill
 ```
 
