@@ -1,6 +1,20 @@
 # Recipe: AI Product — Dark Technical
 
-For AI model pages, agent platforms, inference APIs, LLM tooling, eval harnesses.
+**Project type:** AI model / agent platform / inference API / LLM tooling
+**Default direction:** TM (Technical-Minimal)
+**Also supports:** DE (researcher-portfolio-flavored AI pages), VP (consumer-framed AI apps)
+
+### If direction is DE (alternate)
+- Graphite palette, Swiss type (Inter Display + Tiempos serif accent), no chromatic accent
+- Replace the ChatPromptPanel with a minimal inline prompt / response pair (no chrome)
+- Number-scramble on metrics (parameter count, context length, TPS)
+- Letter-stagger hero on model name
+
+### If direction is VP (alternate — consumer AI)
+- Bright off-white bg + multi-color feature cards
+- Bold hero with italic serif accent word
+- Chunky rounded-3xl chat card with spring hover
+- Color-blocked "how to use it" sections
 
 ---
 

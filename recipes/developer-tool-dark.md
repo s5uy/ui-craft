@@ -1,6 +1,18 @@
 # Recipe: Developer Tool — Dark Technical
 
-**This is the Foundry recipe.** Use it for any developer-facing SaaS, DevOps platform, CI/CD tool, infra product, database, API, SDK, or CLI. This is the "single-prompt → Foundry-quality site" path.
+**Project type:** Developer tool / DevOps / CI / infra / API / CLI marketing site
+**Default direction:** TM (Technical-Minimal)
+**Also supports:** DE (for designer-engineer-authored dev tools, e.g., shadcn-flavored or Rauno-adjacent)
+
+**This is the Foundry recipe.** The "single-prompt → Foundry-quality site" path.
+
+### If direction is DE (alternate)
+- Switch palette to graphite (`oklch(0.11 0 0)` bg) or paper (`oklch(0.98 0 0)` bg)
+- Replace feature tablist with indexed numbered rows (hairline-divided)
+- Add letter-stagger hero, magnetic CTA, cursor-spotlight on feature cards
+- Drop the mint/cyan accent; DE is often accentless
+- Replace centered nav pill with left-aligned wordmark + right-aligned mono nav
+- Reduce page to ~70% of TM's section count; DE breathes more
 
 ---
 

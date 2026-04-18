@@ -1,6 +1,21 @@
 # Recipe: Consumer Product — Warm
 
-For consumer apps, productivity, lifestyle, creative tools, reading/writing apps.
+**Project type:** Consumer app / productivity / creator tool / lifestyle
+**Default direction:** VP (Vibrant-Playful)
+**Also supports:** EL (editorial-leaning consumer brands like Rhode, Graza), DE (for craft-forward productivity tools like Craft or Linear-early)
+
+### If direction is EL (alternate — editorial consumer)
+- Near-white binary palette, single brand accent
+- Giant 20vw product name on hero
+- Scroll-linked product pin
+- Sticky chapter sections for features
+- Zero gradient cards; rely on product photography
+
+### If direction is DE (alternate — craft-forward consumer)
+- Paper palette with hairline dividers
+- Asymmetric hero with mono metadata sidebar
+- Micro-interactions everywhere (magnetic buttons, number scramble on stats)
+- Replace cinematic hero image with an inline UI preview with live micro-interactions
 
 ---
 

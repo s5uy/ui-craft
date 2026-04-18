@@ -1,6 +1,16 @@
 # Recipe: Editorial Brand
 
-For agencies, design studios, media publications, cultural institutions, portfolio sites.
+**Project type:** Agency / studio / media / publication / cultural institution
+**Default direction:** DE (Design-Engineer — Swiss-grid rigor, craft-led)
+**Also supports:** EL (for luxury-brand studios and editorial publications)
+
+### If direction is EL (alternate)
+- Near-white binary palette, no chromatic accent
+- Giant 20vw display type on hero
+- Full-viewport sections; sticky chapters for case studies
+- Horizontal scroll gallery for project thumbnails
+- Slower motion (1000-1400ms reveals)
+- Replace Brutalism references with Apple-editorial references (bigger type, more whitespace, slower motion)
 
 ---
 

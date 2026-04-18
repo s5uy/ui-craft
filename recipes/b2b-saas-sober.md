@@ -1,6 +1,15 @@
 # Recipe: B2B SaaS — Sober Enterprise
 
-For B2B operations software: analytics, admin, finance, HR, billing, procurement, security.
+**Project type:** B2B SaaS / ops / admin / analytics / finance / HR
+**Default direction:** TM (Technical-Minimal)
+**Also supports:** DE (for craft-led B2B — Attio, Linear-adjacent brands)
+
+### If direction is DE (alternate)
+- Paper palette (light mode), hairline dividers instead of panel borders
+- Replace DashboardPreview with an indexed feature table (asymmetric rows)
+- Add cursor-spotlight on ROI/metric cards
+- Swap mono eyebrows for serif italic accents in section labels
+- Remove the accent color; DE enterprise is monochromatic
 
 ---
 

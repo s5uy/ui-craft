@@ -1,6 +1,19 @@
 # Recipe: Dashboard Shell
 
-For the **actual product** — not the marketing page. The logged-in app. This is a different animal from the landing-page recipes.
+**Project type:** Logged-in app shell / dashboard / admin panel / monitoring
+**Default direction:** TM (Technical-Minimal)
+**Also supports:** DE (for craft-led product dashboards — Linear, Height-style)
+
+**Note:** Dashboards are the one recipe where VP and EL directions don't apply — data density needs TM/DE restraint. If a user asks for "a playful dashboard," push back: the data is the subject, not the chrome.
+
+### If direction is DE (alternate)
+- Paper palette option in addition to graphite (some dashboards live in light mode)
+- Hairline dividers between table rows (not shaded zebra)
+- Mono-type everywhere, including in-cell values
+- Cursor-spotlight on chart cards (subtle)
+- Keyboard-first interactions (Cmd+K, J/K nav, ? shortcut menu)
+
+For the **actual product** — not the marketing page. The logged-in app.
 
 ---
 
