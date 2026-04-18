@@ -2,7 +2,7 @@
   "name": "s5uy/ui-craft",
   "id": "ui-craft",
   "displayName": "UI Craft",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "Premium UI/UX generation skill for Claude. Produces interfaces that feel handcrafted, restrained, and production-ready.",
   "author": "Vortex",
   "license": "MIT",
