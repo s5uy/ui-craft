@@ -10,6 +10,13 @@ This file defines:
 
 Use universal + the direction you locked from `core/design-directions.md`. Don't cross-mix motion vocabularies.
 
+**Extended motion system:**
+- `motion/libraries.md` — Framer Motion vs GSAP vs CSS vs View Transitions: when to reach for each
+- `motion/primitives.md` — named duration scale, spring presets, easing catalog, stagger calculator, MotionValue composition
+- `motion/patterns.md` — scroll-reveal variants, exit patterns, stagger choreography, drag, loading transitions, shared-element
+- `motion/performance.md` — compositor thread rules, `will-change` discipline, INP budget, 120fps, bundle size
+- `blueprints/motion/` — signature set-pieces: text-mask-reveal, kinetic-scroll-type, cursor-reactive-grid, horizontal-pin-gallery, shared-element-morph, svg-draw-in
+
 ---
 
 ## Universal Motion Law
