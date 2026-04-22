@@ -1,6 +1,6 @@
 {
   "name": "@s5uy/ui-craft",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Premium UI/UX generation skill for Claude Code",
   "type": "module",
   "bin": {
